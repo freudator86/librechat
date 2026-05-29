@@ -1210,10 +1210,8 @@ class AgentClient extends BaseClient {
   }
 
   /**
-   *
    * @param {Object} params
    * @param {string} params.text
-   * @param {string} params.conversationId
    * @param {AbortController} params.abortController
    * @param {boolean} [params.immediate] When true, the title is generated as soon
    *   as the request is made — the run is awaited (instead of throwing) and the
